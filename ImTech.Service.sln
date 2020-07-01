@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImTech.Service", "ImTech.Service\ImTech.Service.csproj", "{A5707919-0B20-466E-B27B-2FD080677395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImTech.Model", "ImTech.Model\ImTech.Model.csproj", "{0E5E43E1-FA03-4471-ACB5-C9A190CDB7BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImTech.Database", "ImTech.Database\ImTech.Database.csproj", "{099DE104-70AE-4353-A5FE-928147E9BB85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImTech.DataServices", "ImTech.DataService\ImTech.DataServices.csproj", "{726DE2D2-A9F5-4DC6-9754-D39FF97A14F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImTech.Notification.Server", "ImTech.Notification.Server\ImTech.Notification.Server.csproj", "{199B00E7-15FA-49F8-B185-6AB95CEAAE09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImTech.Notification.Messages", "ImTech.Notification.Messages\ImTech.Notification.Messages.csproj", "{551FDBEB-C570-410F-A2A0-7584C68A4899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImTech.Notification.Client", "ImTech.Notification.Client\ImTech.Notification.Client.csproj", "{24BEB1A0-B345-44D1-94CD-728E304FA535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImTech.Service.Test", "ImTech.Service.Test\ImTech.Service.Test.csproj", "{EFD9DF45-6540-4B9C-980D-D1C868077C08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5707919-0B20-466E-B27B-2FD080677395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5707919-0B20-466E-B27B-2FD080677395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5707919-0B20-466E-B27B-2FD080677395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5707919-0B20-466E-B27B-2FD080677395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5E43E1-FA03-4471-ACB5-C9A190CDB7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5E43E1-FA03-4471-ACB5-C9A190CDB7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5E43E1-FA03-4471-ACB5-C9A190CDB7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5E43E1-FA03-4471-ACB5-C9A190CDB7BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099DE104-70AE-4353-A5FE-928147E9BB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099DE104-70AE-4353-A5FE-928147E9BB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099DE104-70AE-4353-A5FE-928147E9BB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099DE104-70AE-4353-A5FE-928147E9BB85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726DE2D2-A9F5-4DC6-9754-D39FF97A14F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726DE2D2-A9F5-4DC6-9754-D39FF97A14F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726DE2D2-A9F5-4DC6-9754-D39FF97A14F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726DE2D2-A9F5-4DC6-9754-D39FF97A14F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{199B00E7-15FA-49F8-B185-6AB95CEAAE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199B00E7-15FA-49F8-B185-6AB95CEAAE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199B00E7-15FA-49F8-B185-6AB95CEAAE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199B00E7-15FA-49F8-B185-6AB95CEAAE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{551FDBEB-C570-410F-A2A0-7584C68A4899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551FDBEB-C570-410F-A2A0-7584C68A4899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551FDBEB-C570-410F-A2A0-7584C68A4899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551FDBEB-C570-410F-A2A0-7584C68A4899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24BEB1A0-B345-44D1-94CD-728E304FA535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24BEB1A0-B345-44D1-94CD-728E304FA535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24BEB1A0-B345-44D1-94CD-728E304FA535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24BEB1A0-B345-44D1-94CD-728E304FA535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD9DF45-6540-4B9C-980D-D1C868077C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD9DF45-6540-4B9C-980D-D1C868077C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD9DF45-6540-4B9C-980D-D1C868077C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD9DF45-6540-4B9C-980D-D1C868077C08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://xombi.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ImTech.Database\\ImTech.Database.csproj
+		SccProjectName1 = ImTech.Database
+		SccLocalPath1 = ImTech.Database
+		SccProjectUniqueName2 = ImTech.Model\\ImTech.Model.csproj
+		SccProjectName2 = ImTech.Model
+		SccLocalPath2 = ImTech.Model
+		SccProjectUniqueName3 = ImTech.Service\\ImTech.Service.csproj
+		SccProjectName3 = ImTech.Service
+		SccLocalPath3 = ImTech.Service
+		SccProjectUniqueName4 = ImTech.DataService\\ImTech.DataServices.csproj
+		SccProjectName4 = ImTech.DataService
+		SccLocalPath4 = ImTech.DataService
+		SccProjectUniqueName5 = ImTech.Notification.Server\\ImTech.Notification.Server.csproj
+		SccProjectName5 = ImTech.Notification.Server
+		SccLocalPath5 = ImTech.Notification.Server
+		SccProjectUniqueName6 = ImTech.Notification.Messages\\ImTech.Notification.Messages.csproj
+		SccProjectName6 = ImTech.Notification.Messages
+		SccLocalPath6 = ImTech.Notification.Messages
+		SccProjectUniqueName7 = ImTech.Notification.Client\\ImTech.Notification.Client.csproj
+		SccProjectName7 = ImTech.Notification.Client
+		SccLocalPath7 = ImTech.Notification.Client
+		SccProjectUniqueName8 = ImTech.Service.Test\\ImTech.Service.Test.csproj
+		SccProjectName8 = ImTech.Service.Test
+		SccLocalPath8 = ImTech.Service.Test
+	EndGlobalSection
+EndGlobal
